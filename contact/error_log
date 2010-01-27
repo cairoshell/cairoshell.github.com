@@ -1,0 +1,5 @@
+[05-Aug-2009 13:22:30] PHP Parse error:  syntax error, unexpected T_VAR in /home/mciarlo/public_html/sandbox/cairo/contact/index.php on line 118
+[13-Sep-2009 00:01:49] PHP Parse error:  syntax error, unexpected T_BOOLEAN_OR in /home/mciarlo/public_html/sandbox/cairo/contact/form.php on line 18
+[13-Sep-2009 00:02:06] PHP Parse error:  syntax error, unexpected T_BOOLEAN_OR in /home/mciarlo/public_html/sandbox/cairo/contact/form.php on line 18
+[13-Sep-2009 00:02:42] PHP Parse error:  syntax error, unexpected T_BOOLEAN_OR in /home/mciarlo/public_html/sandbox/cairo/contact/form.php on line 18
+[13-Sep-2009 00:03:31] PHP Parse error:  syntax error, unexpected '}' in /home/mciarlo/public_html/sandbox/cairo/contact/form.php on line 45

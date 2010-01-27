@@ -1,0 +1,66 @@
+ul#nav li a:link, ul#nav li a:visited {
+	display: block;
+	color: #9e9e9e;
+	padding: 4px 20px 7px 20px;
+	}
+		
+ul#nav li a.current {
+	color: #fff;
+	background: #4a5055;	
+	padding: 4px 20px 7px 20px;
+	}
+	
+#about {
+	float: left;
+	width: 800px;
+	padding: 18px 0 20px 0;
+	margin-top: 50px;
+	border-top: double #424851;
+	border-bottom: double #424851;
+	}
+	
+	
+	#wrap {
+	margin-top: 50px;
+	}
+	
+	#contactForm ul#left li {
+padding: 0 0 10px 0;
+}
+
+	#contactForm ul#left li.text {
+padding: 0 0 2px 0;
+}
+
+#sitemap ul {
+display: block;
+margin-top: 50px;
+}
+
+#sitemap ul li.title {
+float: left;
+width: 230px;
+font-weight: normal;
+font-size: 16px;
+padding: 0 0 10px 0;
+margin: 0 0 10px 0;
+border-bottom: 1px solid #424851;
+}
+
+#sitemap ul.end {
+margin: 50px 0 0 0;
+}
+
+#sitemap ul li {
+margin: 0 0 5px 0;
+}
+
+#features ul li a {
+height: 30px;
+}
+
+#features ul li a:link, #features ul li a:visited{
+margin: 0 5px 0 0;
+padding: 5px 20px 5px 50px;
+}
+
