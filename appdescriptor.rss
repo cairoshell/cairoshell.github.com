@@ -5,6 +5,26 @@
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Cairo Desktop M2.6498</title>
+            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Tue, 17 Oct 2017 00:00:00 -0400</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6498/CairoSetup_64bit.exe"
+            sparkle:version="0.2.6498"
+            sparkle:os="windows-x64"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Cairo Desktop M2.6498</title>
+            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Tue, 17 Oct 2017 00:00:00 -0400</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6498/CairoSetup_32bit.exe"
+            sparkle:version="0.2.6498"
+            sparkle:os="windows-x86"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
             <title>Cairo Desktop M2.6497</title>
             <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 15 Oct 2017 03:00:00 -0400</pubDate>
