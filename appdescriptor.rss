@@ -5,8 +5,28 @@
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Cairo Desktop M2.6504</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Sun, 22 Oct 2017 19:30:00 -0400</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6504/CairoSetup_64bit.exe"
+            sparkle:version="0.2.6504"
+            sparkle:os="windows-x64"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Cairo Desktop M2.6504</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Sun, 22 Oct 2017 19:30:00 -0400</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6504/CairoSetup_32bit.exe"
+            sparkle:version="0.2.6504"
+            sparkle:os="windows-x86"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
             <title>Cairo Desktop M2.6498</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Tue, 17 Oct 2017 00:00:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6498/CairoSetup_64bit.exe"
             sparkle:version="0.2.6498"
@@ -16,7 +36,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6498</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Tue, 17 Oct 2017 00:00:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6498/CairoSetup_32bit.exe"
             sparkle:version="0.2.6498"
@@ -26,7 +46,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6497</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 15 Oct 2017 03:00:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6497/CairoSetup_64bit.exe"
             sparkle:version="0.2.6497"
@@ -36,7 +56,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6497</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 15 Oct 2017 03:00:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6497/CairoSetup_32bit.exe"
             sparkle:version="0.2.6497"
@@ -46,7 +66,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6494</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Thu, 12 Oct 2017 01:00:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6494/CairoSetup_64bit.exe"
             sparkle:version="0.2.6494"
@@ -56,7 +76,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6494</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Thu, 12 Oct 2017 01:00:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.2.6494/CairoSetup_32bit.exe"
             sparkle:version="0.2.6494"
@@ -66,7 +86,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6469</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 17 Sep 2017 10:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6469/CairoSetup_64bit.exe"
             sparkle:version="0.2.6469"
@@ -76,7 +96,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6469</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 17 Sep 2017 10:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6469/CairoSetup_32bit.exe"
             sparkle:version="0.2.6469"
@@ -86,7 +106,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6461</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sat, 9 Sep 2017 22:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6461/CairoSetup_64bit.exe"
             sparkle:version="0.2.6461"
@@ -96,7 +116,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6461</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sat, 9 Sep 2017 22:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6461/CairoSetup_32bit.exe"
             sparkle:version="0.2.6461"
@@ -106,7 +126,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6456</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Mon, 4 Sep 2017 21:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6456/CairoSetup_64bit.exe"
             sparkle:version="0.2.6456"
@@ -116,7 +136,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6456</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Mon, 4 Sep 2017 21:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6456/CairoSetup_32bit.exe"
             sparkle:version="0.2.6456"
@@ -126,7 +146,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6455</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 3 Sep 2017 21:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6455/CairoSetup_64bit.exe"
             sparkle:version="0.2.6455"
@@ -136,7 +156,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6455</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 3 Sep 2017 21:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6455/CairoSetup_32bit.exe"
             sparkle:version="0.2.6455"
@@ -146,7 +166,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6454</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sat, 2 Sep 2017 16:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6454/CairoSetup_64bit.exe"
             sparkle:version="0.2.6454"
@@ -156,7 +176,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6454</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sat, 2 Sep 2017 16:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6454/CairoSetup_32bit.exe"
             sparkle:version="0.2.6454"
@@ -166,7 +186,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6443</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Tue, 22 Aug 2017 03:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6443/CairoSetup_64bit.exe"
             sparkle:version="0.2.6443"
@@ -176,7 +196,7 @@
         </item>
         <item>
             <title>Cairo Desktop M2.6443</title>
-            <sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Tue, 22 Aug 2017 03:00:00 -0400</pubDate>
             <enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6443/CairoSetup_32bit.exe"
             sparkle:version="0.2.6443"
@@ -186,7 +206,7 @@
         </item>
 		<item>
 			<title>Cairo Desktop M2.6440</title>
-			<sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+			<sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
 			<pubDate>Sat, 19 Aug 2017 18:00:00 -0400</pubDate>
 			<enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6440/CairoSetup_64bit.exe"
 				sparkle:version="0.2.6440"
@@ -196,7 +216,7 @@
 		</item>
 		<item>
 			<title>Cairo Desktop M2.6440</title>
-			<sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+			<sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
 			<pubDate>Sat, 19 Aug 2017 18:00:00 -0400</pubDate>
 			<enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6440/CairoSetup_32bit.exe"
 				sparkle:version="0.2.6440"
@@ -206,7 +226,7 @@
 		</item>
 		<item>
 			<title>Cairo Desktop M2.6431</title>
-			<sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+			<sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
 			<pubDate>Fri, 11 Aug 2017 00:00:00 -0400</pubDate>
 			<enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6431/CairoSetup_64bit.exe"
 				sparkle:version="0.2.6431"
@@ -216,7 +236,7 @@
 		</item>
 		<item>
 			<title>Cairo Desktop M2.6431</title>
-			<sparkle:releaseNotesLink>https://dremin.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+			<sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
 			<pubDate>Fri, 11 Aug 2017 00:00:00 -0400</pubDate>
 			<enclosure url="https://github.com/dremin/cairoshell/releases/download/v0.2.6431/CairoSetup_32bit.exe"
 				sparkle:version="0.2.6431"
