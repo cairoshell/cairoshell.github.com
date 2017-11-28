@@ -23,6 +23,14 @@
 				padding: 0;
 			}
 			
+			h2 {
+				color: #fff;
+				font-weight: normal;
+				font-size: 16px;
+				margin: 10px 15px 5px;
+				padding: 0;
+			}
+			
 			ul {
 				margin: 0;
 				list-style-type: none;
@@ -48,9 +56,48 @@
 				padding-bottom: 25px;
 				padding-right: 10px;
 			}
+			
+			.release p {
+				padding: 15px;
+				margin: 0 15px 25px;
+				background: #2a2a2a;
+				border-radius: 5px;
+			}
 		</style>
 	</head>
 	<body>
+		<div class="release">
+			<h1>Cairo Desktop M3.6540</h1>
+			<p>Welcome to Milestone 3! Now that all essential features of Cairo have been implemented, it's time to polish and add more customization options. These are the first of many additions to come in M3.</p>
+			<h2>App Grabber</h2>
+			<ul>
+				<li>When starting Cairo for the first time, the App Grabber will automatically populate with popular applications (#31)</li>
+				<li>The Quick Launch category will populate with your Windows taskbar pinned items automatically (#29)</li>
+				<li>If there is a popular app that is not automatically selected by App Grabber, please open an issue.</li>
+				<li>Fixed crash on Server Core installations</li>
+			</ul>
+			<h2>Menu Bar</h2>
+			<ul>
+				<li>Added button for Action Center on Windows 10 (#50)</li>
+				<li>Added new, high resolution resources for high DPI monitors</li>
+				<li>Added Videos to the Places menu (#58)</li>
+				<li>Improved settings organization and layout</li>
+				<li>Fixed Explorer starting when changing settings and Cairo is replacing Explorer</li>
+			</ul>
+			<h2>Desktop</h2>
+			<ul>
+				<li>Added option to use large or small icons (large is now the default)</li>
+				<li>Added option to place icon labels to the right or below their icon (#55, on right is now the default)</li>
+			</ul>
+			<h2>Taskbar</h2>
+			<ul>
+				<li>Added ability to place the taskbar on the top edge of the screen (#43)</li>
+				<li>Improved how the taskbar reserves screen space (#56)</li>
+				<li>Improved taskbar theme-ability</li>
+				<li>Improved task list icon (#49)</li>
+				<li>Removed option to show both Cairo and Windows taskbars</li>
+			</ul>
+		</div>
 		<div class="release">
 			<h1>Cairo Desktop M2.6513</h1>
 			<ul>
