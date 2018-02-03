@@ -5,6 +5,26 @@
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Cairo Desktop M3.6608</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Sat, 3 Feb 2018 0:30:00 -0500</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.6608/CairoSetup_64bit.exe"
+            sparkle:version="0.3.6608"
+            sparkle:os="windows-x64"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Cairo Desktop M3.6608</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Sat, 3 Feb 2018 0:30:00 -0500</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.6608/CairoSetup_32bit.exe"
+            sparkle:version="0.3.6608"
+            sparkle:os="windows-x86"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
             <title>Cairo Desktop M3.6602</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 28 Jan 2018 03:30:00 -0500</pubDate>
