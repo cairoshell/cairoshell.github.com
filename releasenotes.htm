@@ -67,6 +67,30 @@
 	</head>
 	<body>
 		<div class="release">
+			<h1>Cairo Desktop M3.6842</h1>
+			<ul>
+				<li>Many taskbar improvements!</li>
+				<ul>
+					<li>Added restore, minimize, and maximize options to the context menu that match Windows behavior</li>
+					<li>Added setting to allow middle-click to close windows in the taskbar, like a browser (#115)</li>
+					<li>Added icons and 'new window' option to context menu</li>
+					<li>Fixed apps running as an administrator not restoring from the Cairo taskbar (#286)</li>
+					<li>Fixed closed UWP apps spontaneously appearing in the taskbar</li>
+					<li>Fixed some cases of windows not being displayed with the correct app category</li>
+					<li>Fixed the taskbar allowing you to minimize/maximize windows that couldn't be</li>
+					<li>Improved reliability of window icons</li>
+					<li>Improved the task list menu to have all the same features as taskbar buttons</li>
+				</ul>
+				<li>Added option in Cairo Settings to show "Hibernate" in the Cairo menu if supported by the system (#179)</li>
+				<li>Fixed pinned Windows taskbar items not being added to Cairo quick launch automatically (#301)</li>
+				<li>Fixed removing a monitor on a dual-screen system with multi-monitor menu bar/taskbar enabled rendering Cairo unusable (#302)</li>
+				<li>Fixed the desktop sometimes becoming unusable on a screen resolution change</li>
+				<li>Fixed "Sleep" showing in the Cairo menu on systems that do not support sleep</li>
+				<li>Fixed empty space in Cairo Settings when set as shell</li>
+				<li>Cairo now automatically restarts from certain fatal errors</li>
+			</ul>
+		</div>
+		<div class="release">
 			<h1>Cairo Desktop M3.6824</h1>
 			<ul>
 				<li>Added ability to control if Cairo runs at logon via Cairo Settings (#290, thanks @Brummell67!)</li>
