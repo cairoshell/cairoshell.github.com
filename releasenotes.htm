@@ -67,6 +67,63 @@
 	</head>
 	<body>
 		<div class="release">
+			<h1>Cairo Desktop M3.6906</h1>
+			<ul>
+				<li>Drag & drop support</li>
+				<ul>
+					<li>Dragging a file onto a taskbar icon brings that window to the front (#85)</li>
+					<li>Files and folders can be dropped onto the desktop, or dragged to another window (#323)</li>
+					<li>Files and folders can be dragged out of Stacks</li>
+					<li>Left-click drag performs a move, right-click drag performs a copy</li>
+					<li>Quick Launch apps can be dragged into the Programs menu if they don't exist already</ul>
+				<li>Desktop navigation improvements</li>
+				<ul>
+					<li>Back and forward buttons now go back and forward based on your browsing, rather than folder structure (#312)</li>
+					<li>Mouse back/forward buttons can be used to navigate the desktop (#306)</li>
+					<li>To go up a directory, shift-click or right-click the back button</li>
+					<li>The position of the desktop navigation toolbar is now persisted (#334)</li>
+				</ul>
+				<li>Full screen app handling improvements</li>
+				<ul>
+					<li>Per-monitor full screen awareness</li>
+					<li>Fixed Cairo drawing over games and other full-screen windows (#105, #216)</li>
+					<li>Fixed Cairo stealing focus when leaving full screen</li>
+					<li>Fixed menu bar and taskbar sometimes not restoring to topmost when leaving full screen (#253)</li>
+				</ul>
+				<li>Settings improvements</li>
+				<ul>
+					<li>Added ability to set desktop wallpaper via Cairo settings (#230)</li>
+					<li>Desktop icon appearance changes now take effect without restarting Cairo</li>
+					<li>Theme changes now take effect without restarting Cairo</li>
+				</ul>
+				<li>Shell improvements</li>
+				<ul>
+					<li>Added more Windows hotkeys (#311)</li>
+					<li>Added shortcut to desktop settings in desktop context menu</li>
+					<li>Added support for Bing image of the day wallpaper</li>
+					<li>Added support for video wallpaper, including DreamScene wallpapers</li>
+					<li>Video wallpaper pauses when an app enters full screen</li>
+				</ul>
+				<li>Taskbar improvements</li>
+				<ul>
+					<li>Fixed first click on taskbar not performing the requested action</li>
+					<li>Fixed flashing taskbar items not stopping flashing when clicked</li>
+					<li>Fixed possibility of adding duplicate apps to Quick Launch</li>
+					<li>Fixed some applications such as Solidworks not showing in the taskbar (#273)</li>
+				</ul>
+				<li>App Grabber now automatically selects the latest version of Office apps</li>
+				<li>Added option to show the categories list on the left side of the Programs menu (#331)</li>
+				<li>Fixed double-right-click sometimes opening files</li>
+				<li>Fixed Explorer starting when changing settings (#339)</li>
+				<li>Fixed "New" menu on the desktop context menu</li>
+				<li>Fixed possibility of using both the Cairo and the Windows notification area at the same time</li>
+				<li>Fixed search field losing focus when moving mouse cursor away</li>
+				<li>Fixed several issues when running Cairo configured as shell before logging out</li>
+				<li>Improved notification area icon support for some apps such as EarTrumpet (#324)</li>
+				<li>Fixed a few potential crashes</li>
+			</ul>
+		</div>
+		<div class="release">
 			<h1>Cairo Desktop M3.6842</h1>
 			<ul>
 				<li>Many taskbar improvements!</li>
