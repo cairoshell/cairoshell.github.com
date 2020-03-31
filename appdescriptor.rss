@@ -5,6 +5,28 @@
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Cairo Desktop M3.6984</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Tue, 31 Mar 2020 00:30:00 -0400</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.6984/CairoSetup_64bit.exe"
+            sparkle:version="0.3.6984"
+            sparkle:os="windows-x64"
+            sparkle:installerArguments="/S"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Cairo Desktop M3.6984</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Tue, 31 Mar 2020 00:30:00 -0400</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.6984/CairoSetup_32bit.exe"
+            sparkle:version="0.3.6984"
+            sparkle:os="windows-x86"
+            sparkle:installerArguments="/S"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
             <title>Cairo Desktop M3.6971</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Sun, 22 Mar 2020 03:25:00 -0400</pubDate>
