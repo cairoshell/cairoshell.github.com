@@ -5,9 +5,31 @@
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Cairo Desktop M3.7023</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Sat, 30 May 2020 02:05:00 -0500</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.7023/CairoSetup_64bit.exe"
+            sparkle:version="0.3.7023"
+            sparkle:os="windows-x64"
+            sparkle:installerArguments="/S"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Cairo Desktop M3.7023</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Sat, 30 May 2020 02:05:00 -0500</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.7023/CairoSetup_32bit.exe"
+            sparkle:version="0.3.7023"
+            sparkle:os="windows-x86"
+            sparkle:installerArguments="/S"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
             <title>Cairo Desktop M3.7015</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
-            <pubDate>Wed, 15 Apr 2020 01:00:00 -0400</pubDate>
+            <pubDate>Tue, 14 Apr 2020 22:55:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.7015/CairoSetup_64bit.exe"
             sparkle:version="0.3.7015"
             sparkle:os="windows-x64"
@@ -18,7 +40,7 @@
         <item>
             <title>Cairo Desktop M3.7015</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
-            <pubDate>Wed, 15 Apr 2020 01:00:00 -0400</pubDate>
+            <pubDate>Tue, 14 Apr 2020 22:55:00 -0400</pubDate>
             <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.3.7015/CairoSetup_32bit.exe"
             sparkle:version="0.3.7015"
             sparkle:os="windows-x86"
