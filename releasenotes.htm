@@ -67,6 +67,47 @@
 	</head>
 	<body>
 		<div class="release">
+			<h1>Cairo Desktop M3.7086</h1>
+			<ul>
+				<li>Taskbar improvements:</li>
+				<ul>
+					<li>Added a close button to taskbar thumbnails (#400)</li>
+					<li>Added blur behind the full-width taskbar when &quot;blur behind the menu bar&quot; is enabled (#404)</li>
+					<li>Fixed incorrect aspect ratio on taskbar thumbnails (#420)</li>
+					<li>Fixed not indicating the active window when Cairo is launched (#411)</li>
+					<li>Fixed not properly adjusting size in response to display changes</li>
+					<li>Fixed not responding to DPI changes when &quot;show taskbar on multiple monitors&quot; is enabled, but &quot;show menu bar on multiple monitors&quot; is disabled</li>
+					<li>Fixed some windows not appearing in the taskbar (#396)</li>
+				</ul>
+				<li>Desktop improvements:</li>
+				<ul>
+					<li>Added ability to immediately rename when creating a new file or folder via the &#39;New&#39; menu</li>
+					<li>Added support for showing wallpaper on all displays when Cairo is running as shell</li>
+					<li>Added support to automatically start the system shell when Cairo closes unexpectedly while running as shell</li>
+					<li>Cairo now automatically starts in shell mode if no other shell is running (to disable this, start Cairo with the <code>/noshell</code> command line argument) (#387)</li>
+					<li>Fixed bottom-most windows opening underneath the wallpaper when Cairo is running as shell</li>
+					<li>Fixed Cairo exiting when swapping displays if the desktop is disabled (#422)</li>
+					<li>Fixed sometimes appearing above other windows unintentionally on Windows 8 and 10</li>
+					<li>Fixed sometimes being sized incorrectly after a display change</li>
+					<li>Fixed Win + D hotkey hiding desktop icons on Windows 8 and 10 (#254)</li>
+					<li>Fixed incorrect click and drag behavior when renaming files and folders</li>
+					<li>Fixed icon tooltips flickering</li>
+					<li>Fixed the desktop overlay removing the wallpaper when Cairo is running as shell</li>
+					<li>Fixed toolbar position resetting when screen size changes (#422)</li>
+					<li>Fixed wallpaper disappearing when disabling the desktop while Cairo is running as shell (#408)</li>
+					<li>Improved handling when the current wallpaper file is not found</li>
+				</ul>
+				<li>Fixed welcome tour appearing on wrong monitor (#417)</li>
+				<li>Settings improvements:</li>
+				<ul>
+					<li>Restarting Cairo is no longer required to change the following settings: &quot;Enable desktop&quot;, &quot;Desktop overlay hotkey&quot;, &quot;Enable dynamic desktop navigation toolbar&quot;, &quot;Cairo menu hotkey&quot;, &quot;Blur behind the menu bar&quot;</li>
+					<li>Fixed hotkey setting dropdowns not taking effect when changing via keyboard</li>
+					<li>Fixed the settings window not reflecting wallpaper changes from other apps (#411)</li>
+					<li>Removed option to hide sub-directories (#416)</li>
+				</ul>
+			</ul>				
+		</div>
+		<div class="release">
 			<h1>Cairo Desktop M3.7028</h1>
 			<ul>
 				<li>Improved appearance of full-width taskbar</li>
