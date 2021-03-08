@@ -67,6 +67,77 @@
 	</head>
 	<body>
 		<div class="release">
+			<h1>Cairo Desktop 0.4.80</h1>
+			<p>We've re-written significant portions of Cairo to resolve bugs, improve compatibility, enhance extensibility, and to make it easier for us to add new functionality going forward.</p>
+			<ul>
+				<li>Extensions built for Milestone 3 builds of Cairo will need to be updated before they will work in newer versions. See the CairoExtensionSamples repo for sample extensions that have been updated.</li>
+				<li>Command-line arguments have changed in this version. If you're using these, see the wiki for updated arguments.</li>
+			</ul>
+			<h2>Folder browsing improvements:</h2>
+			<ul>
+				<li>Re-implemented folder views to more closely resemble Windows Explorer directory listing results</li>
+				<li>Improved performance of loading folders</li>
+				<li>File and folder icons now match what is shown by Windows Explorer</li>
+				<li>File and folder context menus now appear in dark mode on Windows 10 version 1903 through 20H2 when specified by the selected Cairo theme</li>
+				<li>Special shell folders, such as This PC and Control Panel, can now be opened on the dynamic desktop and added as stacks</li>
+				<li>ZIP files can now be browsed into on the dynamic desktop or added to stacks (you can even add folders within a ZIP as stacks--neat!)</li>
+				<li>Fixed file rename not selecting the last character</li>
+				<li>Fixed icons appearing pixelated on high-resolution displays</li>
+			</ul>
+			<h2>Dynamic desktop improvements:</h2>
+			<ul>
+				<li>The desktop now includes items from the common desktop folder, like the Explorer desktop</li>
+				<li>The desktop toolbar history menu now shows tool tips with the path of each item</li>
+				<li>Improved desktop overlay hiding after selecting an option from the context menu</li>
+				<li>Improved desktop toolbar current folder tool tip</li>
+				<li>Fixed desktop not getting mouse capture after closing a stack</li>
+				<li>Fixed display of folders with an underscore in their name in the desktop toolbar history menu</li>
+				<li>Fixed errant drag-drop operations occurring on the desktop</li>
+			</ul>
+			<h2>Stacks improvements:</h2>
+			<ul>
+				<li>The shell context menu is now used in stacks (#496)</li>
+				<li>Fixed stacks 'open' button always opening in a new window regardless of desktop settings</li>
+				<li>Fixed stacks staying open after choosing an icon</li>
+			</ul>
+			<h2>Notification area improvements:</h2>
+			<ul>
+				<li>Fixed some icons not appearing (such as OBS and Spotify)</li>
+				<li>Fixed some icons not responding to clicks (such as Origin, #517)</li>
+				<li>Fixed some icon updates causing a crash on 32-bit systems</li>
+				<li>Fixed some menus flashing or not appearing at all (such as EarTrumpet and Steam, #498)</li>
+			</ul>
+			<h2>Taskbar improvements:</h2>
+			<ul>
+				<li>Added ability to hide taskbar labels (#510, thanks @Cereal-Killa!)</li>
+				<li>Setting to enable/disable the taskbar no longer requires a restart</li>
+				<li>Fixed an error when right-clicking the task list</li>
+				<li>Fixed some cases of incorrect categorization in the taskbar</li>
+			</ul>
+			<h2>Search improvements:</h2>
+			<ul>
+				<li>Improved responsiveness</li>
+				<li>Improved search results</li>
+			</ul>
+			<h2>App Grabber improvements:</h2>
+			<ul>
+				<li>Improved performance</li>
+				<li>Fixed App Grabber not getting focus when opening from the Programs menu</li>
+				<li>Fixed error on Server Core 2012 (#508)</li>
+			</ul>
+			<h2>General improvements:</h2>
+			<ul>
+				<li>Blur behind the menu bar is now enabled by default on supported systems</li>
+				<li>Setting to show menu bars or taskbars on all monitors no longer requires a restart</li>
+				<li>Updated Russian localization (#530, thanks @curoviyxru!)</li>
+				<li>Themes are now stored in a 'Themes' sub-directory</li>
+				<li>Themes can now be stored per user in <code>%localappdata%\Cairo_Development_Team\Themes</code></li>
+				<li>Fixed file extensions showing in the Themes drop down</li>
+				<li>Fixed Cairo Settings sometimes not correctly showing whether Cairo is set as the shell or not</li>
+				<li>Fixed issue with Cairo covering full-screen apps with multiple monitors</li>
+			</ul>
+		</div>
+		<div class="release">
 			<h1>Cairo Desktop M3.7174</h1>
 			<ul>
 				<li>Added support for hiding the volume icon via Group Policy (#484)</li>
