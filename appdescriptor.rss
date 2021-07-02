@@ -5,6 +5,28 @@
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Cairo Desktop 0.4.133</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Thu, 1 Jul 2021 21:00:00 -0500</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.4.133/CairoSetup_64bit.exe"
+            sparkle:version="0.4.133"
+            sparkle:os="windows-x64"
+            sparkle:installerArguments="/S"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Cairo Desktop 0.4.133</title>
+            <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
+            <pubDate>Thu, 1 Jul 2021 21:00:00 -0500</pubDate>
+            <enclosure url="https://github.com/cairoshell/cairoshell/releases/download/v0.4.133/CairoSetup_32bit.exe"
+            sparkle:version="0.4.133"
+            sparkle:os="windows-x86"
+            sparkle:installerArguments="/S"
+            length="0"
+            type="application/octet-stream" />
+        </item>
+        <item>
             <title>Cairo Desktop 0.4.112</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Mon, 24 May 2021 20:00:00 -0500</pubDate>
