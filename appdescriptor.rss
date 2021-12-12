@@ -4,7 +4,7 @@
 		<title>Cairo Desktop Updates</title>
 		<description>Most recent changes with links to updates.</description>
         <language>en</language>
-        <item>
+        <!--<item>
             <title>Cairo Desktop 0.4.164</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
             <pubDate>Tue, 7 Dec 2021 19:30:00 -0500</pubDate>
@@ -25,7 +25,7 @@
             sparkle:installerArguments="/S"
             length="0"
             type="application/octet-stream" />
-        </item>
+        </item>-->
         <item>
             <title>Cairo Desktop 0.4.158</title>
             <sparkle:releaseNotesLink>https://cairoshell.github.io/releasenotes.htm</sparkle:releaseNotesLink>
