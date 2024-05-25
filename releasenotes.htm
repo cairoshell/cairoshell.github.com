@@ -67,6 +67,36 @@
 	</head>
 	<body>
 		<div class="release">
+			<h1>Cairo Desktop 0.4.317</h1>
+			<ul>
+				<li>Added auto-hide option for the menu bar (#120)</li>
+				<li>Added option to show the menu bar on the bottom of the screen (#142)</li>
+				<li>Added Flat Accent theme, which is a variant of the Flat theme that uses the current Windows accent color (#731, thanks @Blastd!)</li>
+				<li>Added a configurable delay to activate showing the menu bar or taskbar when using auto-hide, set to 250ms by default</li>
+				<li>Network and Power system notification area icons in Windows 11 now open the specific network or power flyout with version 22H2 or later</li>
+				<li>Notification area icons can now be middle-clicked</li>
+				<li>The settings window now scrolls to improve usage on small screens</li>
+				<li>Fixed broken shortcuts causing Cairo to open the &quot;missing shortcut&quot; window when not desirable (#774)</li>
+				<li>Fixed some applications such as Notepad, Paint, and Edge PWAs not opening when Cairo is set as shell (#734)</li>
+				<li>Fixed notification area icons for some apps, such as DS4Windows, not functioning</li>
+				<li>Fixed inverting system icons when using software rendering (#790, thanks @xoascf!)</li>
+				<li>Fixed taskbar items sometimes disappearing after removing a monitor (#773)</li>
+				<li>Fixed some potential errors when taskbar items change</li>
+				<li>Fixed system icons not working in Windows 11 with ExplorerPatcher or StartAllBack</li>
+				<li>Fixed blur behind the full-width taskbar not working when set to auto-hide</li>
+				<li>Improved translations:<ul>
+					<li>German (#719, thanks @uDEV2019!)</li>
+					<li>Italian (#756, thanks @Blastd!)</li>
+					<li>Portuguese (#755, thanks @E-rick23!)</li>
+					<li>Simplified Chinese (#721, thanks @wcxu21!)</li>
+					<li>Spanish (#746, thanks @ponjadito23!)</li>
+				</ul>
+				</li>
+				<li>Settings, logs, and extensions now reside within <code>%localappdata%\Cairo Desktop</code>. Settings are automatically moved to the new location and are now saved as JSON.</li>
+				<li>Misc under-the-hood improvements</li>
+			</ul>
+		</div>
+		<div class="release">
 			<h1>Cairo Desktop 0.4.245</h1>
 			<ul>
 				<li>Added new options for multi-monitor taskbars (#203):<ul>
