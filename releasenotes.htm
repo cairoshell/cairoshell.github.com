@@ -67,6 +67,58 @@
 	</head>
 	<body>
 		<div class="release">
+			<h1>Cairo Desktop 0.4.407</h1>
+			<ul>
+				<li>Window minimize/restore animations now use the Cairo taskbar button location (#881)<ul>
+					<li>If the button is on multiple taskbars, the primary is used</li>
+				</ul>
+				</li>
+				<li>When running Cairo as shell, you can now disable the Windows key from opening the Programs menu (#713)</li>
+				<li>Fixed several taskbar issues:<ul>
+					<li>Fixed taskbar not displaying the correct tasks when switching virtual desktops (#398)</li>
+					<li>Fixed closing a task from the taskbar not bringing prompts (i.e. for unsaved data) to the foreground</li>
+					<li>Fixed disabled windows, which can&#39;t be restored, being allowed to minimize</li>
+					<li>Fixed first selected window un-maximizing</li>
+					<li>Fixed focus issue when minimizing a window using the taskbar</li>
+					<li>Fixed some tasks not being removed from the taskbar when requested</li>
+					<li>Fixed Start menu window showing in the taskbar in early versions of Windows 10</li>
+					<li>Fixed tasks sometimes showing on the wrong taskbar after adding/removing a monitor</li>
+				</ul>
+				</li>
+				<li>Fixed App Grabber window size when opened on a secondary display (#872)</li>
+				<li>Fixed auto-hide menu bars and taskbars on a secondary screen with high DPI opening off-screen</li>
+				<li>Fixed Cairo behaving improperly after restarting Explorer (#861)</li>
+				<li>Fixed Cairo sometimes missing newly added monitors on Windows 11 (#886)</li>
+				<li>Fixed crash when the log file cannot be written</li>
+				<li>Fixed Explorer crash loop after restarting Explorer while Cairo is running on Windows 11</li>
+				<li>Fixed hidden files being visible in situations when they should not be</li>
+				<li>Fixed inability to restore the default file manager in Cairo Settings (#871)</li>
+				<li>Fixed many situations where Cairo would cover full-screen apps</li>
+				<li>Fixed menu bar and taskbar sometimes being positioned incorrectly depending on display setup</li>
+				<li>Fixed menu bar and taskbar sometimes duplicating when changing screen settings (#852)</li>
+				<li>Fixed some conditions where Cairo could steal focus</li>
+				<li>Fixed some non-full-screen-able windows going in front of Cairo like a full-screen window</li>
+				<li>Fixed &quot;Start Cairo when logging in&quot; option not working properly (#857)</li>
+				<li>Fixed updater pulling x64 builds on ARM64 (#859)<ul>
+					<li>Note: This means if you&#39;re currently using Cairo on ARM, you should download this release from GitHub to get the correct version. The updater will then work properly going forward.</li>
+				</ul>
+				</li>
+				<li>Improved performance on Windows 8 and newer</li>
+				<li>Removed restriction preventing enabling the notification area while the taskbar is disabled (#749)</li>
+				<li>Added translations:<ul>
+					<li>Chinese (Traditional) (#867, thanks @new1271!)</li>
+				</ul>
+				</li>
+				<li>Improved translations:<ul>
+					<li>Brazilian Portuguese (#865, thanks @E-rick23!)</li>
+					<li>German (#840, thanks @uDEV2019!)</li>
+					<li>Russian (#843, thanks @vanja-san!)</li>
+				</ul>
+				</li>
+				<li>Misc under-the-hood improvements</li>
+			</ul>
+		</div>
+		<div class="release">
 			<h1>Cairo Desktop 0.4.370</h1>
 			<ul>
 				<li>Cairo no longer requires .NET Framework 4.7.1, and includes all necessary .NET files. As a result, the download size has increased.</li>
